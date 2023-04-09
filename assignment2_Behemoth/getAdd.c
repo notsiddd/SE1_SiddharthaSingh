@@ -9,4 +9,5 @@ int main(int argc, char** argv)
     ptr += (strlen(argv[0]) - strlen(argv[2]))*2;
     printf("%x\n", ptr);
     return 0;
+    //Need to compile this into a 32 bit executable, does not work otherwise.
 }
