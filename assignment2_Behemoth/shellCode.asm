@@ -20,7 +20,7 @@ push "/etc"     ; Creates "/etc///behemoth_pass///behemoth1\0"
 mov ebp, esp    
  
 push eax        
-push ebp        ; Pointer to "/etc///behemoth_pass///behemoth1\0"
+push ebp        ; Pointer to /etc///behemoth_pass///behemoth1\0
 push ebx        
 mov ecx, esp    
 
